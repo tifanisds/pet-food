@@ -8,12 +8,17 @@ body {
     background-color: #E5E5E5;
 }
 
+.page-container {
+    width: 1440px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+}
+
 .header {
     height: 583px;
     width: 1440px;
     background-color: #432A2A;
     border-radius: 0 0 200px 10px;
-    margin: 0 auto;
 }
 
 .container {
@@ -55,14 +60,14 @@ ul li {
 }
 
 .box img {
-    height: 421px;  
+    height: 422px; 
+    margin-right: 268px; 
 }
 
-.box button{
+.box .text .button{
     width: 250px;
-    height: 61.72px;
-    left: 124px;
-    top: 439.64px;
+    padding: 20px;
+    text-decoration: none;
     background: #FF9A03;
     border-radius: 10px;
     font-family: Poppins;
@@ -85,7 +90,7 @@ ul li {
     margin-bottom: 10px;
 }
 
-.text h3{
+.text h3 {
     font-family: Poppins;
     font-style: normal;
     font-weight: 400;
@@ -94,8 +99,10 @@ ul li {
 }
 
 main {
-    width: 1200px;
+    width: 1440px;
     margin: auto;
+    background-color: #FFFFFF;
+    padding: 103px 120px 0 120px;
 }
 
 .produtos {
@@ -103,75 +110,19 @@ main {
     justify-content: space-between;
 }
 
+.card {
+    border-radius: 10px;
+    margin-top: 38px;
+    width: 288px;
+    height: 324px;
+    padding: 20px;
+    background-color: #FAFAFA;
+}
+
 main h2 {
-    margin-top: 103px;
     font-family: poppins;
     font-weight: bold;
     font-size: 30px;
-}
-
-div .golden {
-    margin-top: 38px;
-    width: 288px;
-    height: 324px;
-    padding: 20px;
-    background-color: white;
-}
-
-div .royal-canin {
-    margin-top: 38px;
-    width: 288px;
-    height: 324px;
-    padding: 20px;
-    background-color: white;
-}
-
-div .whiskas {
-    margin-top: 38px;
-    width: 288px;
-    height: 324px;
-    padding: 20px;
-    background-color: white;
-}
-
-div .nutropica {
-    margin-top: 38px;
-    width: 288px;
-    height: 324px;
-    padding: 20px;
-    background-color: white;
-}
-
-div .gran-plus {
-    margin-top: 38px;
-    width: 288px;
-    height: 324px;
-    padding: 20px;
-    background-color: white;
-}
-
-div .bravecto {
-    margin-top: 38px;
-    width: 288px;
-    height: 324px;
-    padding: 20px;
-    background-color: white;
-}
-
-div .alfapets {
-    margin-top: 38px;
-    width: 288px;
-    height: 324px;
-    padding: 20px;
-    background-color: white;
-}
-
-div .premier {
-    margin-top: 38px;
-    width: 288px;
-    height: 324px;
-    padding: 20px;
-    background-color: white;
 }
 
 .produtos img {
