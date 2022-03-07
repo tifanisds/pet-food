@@ -62,7 +62,7 @@ nav .logo {
 
 .box img {
     height: 422px; 
-    margin-right: 268px; 
+    margin-right: 135px; 
 }
 
 .box .text .button{
@@ -100,11 +100,10 @@ nav .logo {
 }
 
 main {
-    width: 1440px;
+    width: 100%;
     margin: auto;
     background-color: #FFFFFF;
-    padding: 103px 120px 0 120px;
-    height: 990px;
+    padding: 103px 120px 120px 120px;
 }
 
 .produtos {
@@ -167,11 +166,10 @@ div .info {
 }
 
 footer {
-    height: 388px;
-    width: 1440px;
+    width: 100%;
     background-color: #432A2A;
     font-display: flex;
-    margin: 0 auto;
+    padding-bottom: 30px;
 }
 
 footer .logo {
@@ -181,6 +179,7 @@ footer .logo {
 }
 
 footer .info {
+    width: 100%;
     display: flex;
     justify-content: space-around;
 }
