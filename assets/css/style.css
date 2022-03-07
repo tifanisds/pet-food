@@ -99,6 +99,47 @@ nav .logo {
     margin-bottom: 45px;
 }
 
+.box-info {	
+    width: 1196px;	
+    margin: 0 auto;	
+    margin-top: 123px;	
+    display: flex;	
+    justify-content: space-between;
+}
+
+.box-info .info {	
+    width: 383px;	
+    height: 147px;	
+    background-color: #FAFAFA;	
+    border-radius: 10px;	
+    display: flex;	
+    justify-content: space-between;	
+    padding: 10px 50px;	
+    font-family: poppins;	
+    box-shadow: 0px 13px 50px -32px rgba(0, 0, 0, 0.25);	
+}
+
+.box-info .info .img {	
+    width: 55px;	
+    margin-top: 35px;	
+}
+
+.box-info .info h2 {	
+    color: #FF9A03;	
+    font-size: 18px;	
+    font-weight: bold;	
+    margin-top: 30px;	
+}
+
+.box-info .info h3 {	
+    font-size: 14px;	
+    font-weight: 500;	
+}
+
+.box-info .info .text {	
+    margin-left: 40px;	
+}
+
 main {
     width: 100%;
     margin: auto;
@@ -106,9 +147,168 @@ main {
     padding: 103px 120px 120px 120px;
 }
 
+.welcome {
+    display: flex;
+    justify-content: start;
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.about-us {	
+    width: 495px;
+    margin-left: 100px;	
+}
+
+.about-us h4 {	
+    color: #FF9A03;	
+    font-family: poppins;	
+    font-weight: 400;	
+    font-size: 18px;	
+    margin-top: 10px;	
+}
+
+.about-us h1 {	
+    color: #000000;	
+    font-family: poppins;	
+    font-weight: bold;	
+    font-size: 36px;	
+    margin-top: 10px;	
+}
+
+.about-us p {	
+    color: #000000;	
+    font-family: poppins;	
+    font-weight: 400;	
+    font-size: 18px;	
+    margin-top: 10px;	
+}
+
+.about-us ul {	
+    list-style: none;
+    padding: 0;
+    margin: 30px 0 0 0;
+}
+
+.about-us ul li {	
+    display: flex;
+    margin: 0;
+}
+
+.about-us ul li .text {	
+    margin-left: 10px;	
+    font-family: poppins;	
+    font-weight: 500;
+    color: #494949;	
+}
+
+.marcas {	
+    width: 1000px;	
+    display: flex;	
+    justify-content: space-between;
+    margin: 0 auto;	
+    margin-bottom: 127px;	
+}
+
 .produtos {
     display: flex;
     justify-content: space-between;
+}
+
+.produtos-home {	
+    width: 1250px;	
+    margin: 0 auto;	
+    display: flex;	
+    justify-content: space-between;	
+}
+
+.indicacao {	
+    width: 387px;	
+}
+
+.produtos-home .indicacao h2 {	
+    font-family: Poppins;	
+    font-weight: bold;	
+    font-size: 36px;	
+    margin-bottom: 58px;	
+}
+
+.produtos-home .indicacao h3 {	
+    font-family: Poppins;	
+    font-style: normal;	
+    font-weight: 500;	
+    font-size: 24px;	
+    margin-top: 50px;	
+}
+
+.produtos-home .indicacao p {	
+    font-family: Poppins;	
+    font-weight: 500;	
+    font-size: 18px;	
+    margin-top: 30px;	
+    margin-bottom: 20px;	
+}
+
+.produtos-home .indicacao h4 {	
+    font-family: Poppins;	
+    font-weight: 700;	
+    font-size: 18px;	
+    line-height: 27px;	
+    color: #FF9A03;	
+}
+
+.catalogo {	
+    width: 700px;	
+}
+
+.linha1 {	
+    display: flex;	
+    justify-content: space-between;	
+}
+
+.linha2 {	
+    display: flex;	
+    justify-content: space-between;	
+}
+
+.linha1 div {	
+    width: 217px;	
+    height: 274px;	
+    border-radius: 10px;	
+    background-color: #FAFAFA;	
+    box-shadow: 0px 13px 50px -32px rgba(0, 0, 0, 0.25);	
+}
+
+.linha2 div {	
+    width: 217px;	
+    height: 274px;	
+    border-radius: 10px;	
+    background-color: #FAFAFA;	
+    box-shadow: 0px 13px 50px -32px rgba(0, 0, 0, 0.25);	
+}
+
+.produtos-home .catalogo h3 {	
+    font-family: Poppins;	
+    font-weight: 500;	
+    font-size: 10px;	
+    color: #494949;	
+}
+
+.produtos-home .catalogo p {	
+    font-family: Poppins;	
+    font-weight: 500;	
+    font-size: 11px;	
+    color: #000000;	
+}
+
+.produtos-home .catalogo h2 {	
+    font-family: Poppins;	
+    font-weight: bold;	
+    font-size: 18px;	
+    color: #FF9A03;	
+}
+
+.produtos-home .catalogo .golden {	
+    margin: 0 auto;	
 }
 
 .card {
